@@ -8,7 +8,7 @@ export const translations = {
     },
     hero: {
       greeting: "Hola, mi nombre es",
-      subtitle: "Desarrollador Full Stack en formación. Apasionado por crear experiencias digitales modernas, minimalistas y eficientes.",
+      subtitle: "Desarrollador Full Stack. Apasionado por crear experiencias digitales modernas, minimalistas y eficientes.",
       btnProjects: "Ver mi trabajo",
       btnContact: "Contáctame"
     },
@@ -33,7 +33,7 @@ export const translations = {
         },
         {
           id: 2,
-          title: "Task Manager",
+          title: "Administrador de tareas",
           description: "Aplicación para la gestión de tareas diarias con almacenamiento local.",
           tech: ["JavaScript", "CSS3", "HTML5"],
           image: "/projects/task_manager.png",
@@ -42,7 +42,7 @@ export const translations = {
         },
         {
           id: 3,
-          title: "Weather Dashboard",
+          title: "Panel meteorológico",
           description: "Visualizador del clima en tiempo real utilizando APIs externas.",
           tech: ["React", "Vite", "OpenWeather API"],
           image: "/projects/weather_dashboard.png",
@@ -70,7 +70,7 @@ export const translations = {
     },
     hero: {
       greeting: "Hello, my name is",
-      subtitle: "Full Stack Developer in training. Passionate about creating modern, minimalist, and efficient digital experiences.",
+      subtitle: "Full Stack Developer. Passionate about creating modern, minimalist, and efficient digital experiences.",
       btnProjects: "View my work",
       btnContact: "Contact me"
     },
@@ -114,8 +114,8 @@ export const translations = {
       ]
     },
     footer: {
-      rights: "All rights reserved.",
-      developed: "Developed by Oscar Blanco"
+      rights: "Todos los derechos reservados",
+      developed: "Desarrollado por Oscar Blanco"
     },
     contact: {
       title: "Let's talk",
