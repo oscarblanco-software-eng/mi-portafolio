@@ -27,7 +27,7 @@ export const translations = {
           title: "Plataforma de gestión Veterinaria ",
           description: "Aplicación web diseñada para agilizar las operaciones de las clínicas veterinarias.",
           tech: ["React", "Node.js", "MySQL"],
-          image: "public/projects/clinipet.png",
+          image: "/projects/clinipet.png",
           link: "https://clinipet-management-platform-bz3n.vercel.app/",
           repo: "https://github.com/oscarblanco-software-eng/clinipet-management-platform.git"
         },
@@ -36,7 +36,7 @@ export const translations = {
           title: "Task Manager",
           description: "Aplicación para la gestión de tareas diarias con almacenamiento local.",
           tech: ["JavaScript", "CSS3", "HTML5"],
-          image: "/public/projects/clinipet.png",
+          image: "/projects/task_manager.png",
           link: "https://tu-demo.com",
           repo: "https://github.com/tu-usuario/proyecto"
         },
@@ -45,7 +45,7 @@ export const translations = {
           title: "Weather Dashboard",
           description: "Visualizador del clima en tiempo real utilizando APIs externas.",
           tech: ["React", "Vite", "OpenWeather API"],
-          image: "/public/projects/weather_dashboard.png",
+          image: "/projects/weather_dashboard.png",
           link: "https://tu-demo.com",
           repo: "https://github.com/tu-usuario/proyecto"
         }
@@ -89,7 +89,7 @@ export const translations = {
           title: "Veterinary Management Platform",
           description: "Web application designed to streamline operations for veterinary clinics.",
           tech: ["React", "Node.js", "MySQL"],
-          image: "/public/projects/clinipet.png",
+          image: "/projects/clinipet.png",
           link: "https://clinipet-management-platform-bz3n.vercel.app/",
           repo: "https://github.com/oscarblanco-software-eng/clinipet-management-platform.git"
         },
@@ -98,7 +98,7 @@ export const translations = {
           title: "Task Manager",
           description: "Daily task management application with local storage.",
           tech: ["JavaScript", "CSS3", "HTML5"],
-          image: "/public/projects/task_manager.png",
+          image: "/projects/task_manager.png",
           link: "https://your-demo.com",
           repo: "https://github.com/your-user/project"
         },
@@ -107,7 +107,7 @@ export const translations = {
           title: "Weather Dashboard",
           description: "Real-time weather visualizer using external APIs.",
           tech: ["React", "Vite", "OpenWeather API"],
-          image: "/public/projects/weather_dashboard.png",
+          image: "/projects/weather_dashboard.png",
           link: "https://your-demo.com",
           repo: "https://github.com/your-user/project"
         }
