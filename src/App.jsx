@@ -1,12 +1,13 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Projects from './components/Projects' // <-- Importar
 
 function App() {
   return (
     <main className="bg-slate-950 min-h-screen selection:bg-cyan-500/30">
-      <Navbar /> {/* <-- La Navbar va aquí */}
+      <Navbar />
       <Hero />
-      {/* Aquí iremos agregando las demás secciones (Proyectos, etc) */}
+      <Projects /> {/* <-- Agregar aquí */}
     </main>
   )
 }
