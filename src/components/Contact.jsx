@@ -34,17 +34,18 @@ export default function Contact({ t }) {
           method="POST"
           className="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10"
         >
+          {/* Campo Nombre */}
           <div className="flex flex-col gap-2">
-            <label className="text-slate-300 text-sm font-medium ml-1">
-              {t.labelName || "Nombre"}
-            </label>
-            <input 
-              type="text" 
-              name="name"
-              required
-              placeholder={t.placeholderName || "Tu nombre..."} 
-              className="w-full bg-slate-950 border border-slate-800 rounded-xl py-4 px-6 text-white focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500/30 transition-all"
-            />
+           <label className="text-slate-300 text-sm font-medium ml-1">
+    {t.labelName || "Nombre"} {/* Usa la traducción o un fallback */}
+         </label>
+          <input 
+            type="text" 
+            name="name"
+            required
+            placeholder={t.placeholderName || "Tu nombre..."} 
+            className="w-full bg-slate-950 border border-slate-800 rounded-xl py-4 px-6 text-white focus:outline-none focus:border-cyan-500 transition-all"
+         />
           </div>
 
           <div className="flex flex-col gap-2">

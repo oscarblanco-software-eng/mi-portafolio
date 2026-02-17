@@ -117,10 +117,17 @@ export const translations = {
       rights: "Todos los derechos reservados",
       developed: "Desarrollado por Oscar Blanco"
     },
-    contact: {
-      title: "Let's talk",
-      subtitle: "Contact",
-      description: "Do you have a project in mind or just want to say hi? My inbox is always open."
-    }
+   contact: {
+  title: "Let's",
+  subtitle: "Talk",
+  description: "Do you have a project in mind or just want to say hi? My inbox is always open.",
+  labelName: "Name",
+  placeholderName: "Your name...",
+  labelEmail: "Email",
+  placeholderEmail: "your@email.com",
+  labelMessage: "Message",
+  placeholderMessage: "Tell me about your project...",
+  send: "Send Message"
+}
   }
 };
