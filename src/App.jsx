@@ -30,7 +30,7 @@ function App() {
       <Hero t={t.hero} />
       
       {/* Skills puede recibir el idioma si necesitas traducir nombres de categorías */}
-      <Skills lang={lang} />
+      <Skills t={t.skills} />
       
       <Projects t={t.projects} />
       
