@@ -77,7 +77,8 @@ export default function Navbar({ lang, setLang, t }) {
           <motion.a 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="/CV_Oscar_Blanco.pdf" 
+            href="/CV_Oscar_Blanco_Systems_Engineer.pdf" 
+            download="CV_Oscar_Blanco_Systems_Engineer.pdf"
             className="bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-4 md:px-6 py-2 rounded-full text-[10px] md:text-xs font-black uppercase tracking-tighter transition-all"
           >
             {t.cv}
