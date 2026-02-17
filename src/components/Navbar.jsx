@@ -16,9 +16,13 @@ export default function Navbar() {
         </div>
 
         {/* Botón de CV o Acción */}
-        <button className="bg-slate-800 hover:bg-slate-700 text-white px-5 py-2 rounded-lg text-sm font-bold transition-all border border-slate-700">
+        <a 
+             href="/CV_Oscar_Blanco_Systems_Engineer.pdf" 
+             download="CV_Oscar_Blanco_Systems_Engineer.pdf"
+            className="bg-slate-800 hover:bg-slate-700 text-white px-5 py-2 rounded-lg text-sm font-bold transition-all border border-slate-700 inline-block"
+>
           Descargar CV
-        </button>
+        </a>
       </div>
     </nav>
   )
